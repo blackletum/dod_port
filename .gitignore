@@ -148,6 +148,7 @@ game/dod_port/voice_ban.dt
 game/dod_port/glshaders.cfg
 game/dod_port/videoconfig_linux.cfg
 game/dod_port/gamestate.txt
+game/dod_port/textwindow_temp.html
 
 *.dem
 *.backup
