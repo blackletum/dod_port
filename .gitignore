@@ -48,9 +48,9 @@ client_osx32_*
 *.vpc.sentinel
 
 # Compile products
-//*.exe
+*.exe
 *.dll
-//*.lib
+*.lib
 *.pdb
 *.so
 *.so.dbg
