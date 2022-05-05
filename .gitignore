@@ -90,69 +90,70 @@ mapsrc/*.lin
 mapsrc/*.prt
 
 # folders
-addons/
-cache/
-custom/*
-download/
-downloadlists/
-screenshots/
-sound/temp/
-maps/graphs/
-materials/temp/*
-materials/vgui/logos/*
-materialsrc/
-modelsrc/
-maps/soundcache/
-mapsrc/
+game/dod_port/addons/
+game/dod_port/cache/
+game/dod_port/custom/*
+game/dod_port/download/
+game/dod_port/downloadlists/
+game/dod_port/screenshots/
+game/dod_port/sound/temp/
+game/dod_port/maps/graphs/
+game/dod_port/materials/temp/*
+game/dod_port/materials/vgui/logos/*
+game/dod_port/materialsrc/
+game/dod_port/modelsrc/
+game/dod_port/maps/soundcache/
+game/dod_port/mapsrc/
 
 # allow files in ignored folders
-!custom/readme.txt
+!game/dod_port/custom/readme.txt
 
 # server config files
-cfg/motd.txt
-cfg/motd_defualt.txt
-cfg/motd_text_defualt.txt
-cfg/sourcemod
-cfg/server.cfg
-cfg/listenserver.cfg
-cfg/mapcycle.txt
-cfg/maplist.txt
-cfg/server_blacklist.txt
-cfg/banned_ip.cfg
-cfg/banned_user.cfg
-ServerConfig.vdf
+game/dod_port/cfg/motd.txt
+game/dod_port/cfg/motd_defualt.txt
+game/dod_port/cfg/motd_text_defualt.txt
+game/dod_port/cfg/sourcemod
+game/dod_port/cfg/server.cfg
+game/dod_port/cfg/listenserver.cfg
+game/dod_port/cfg/mapcycle.txt
+game/dod_port/cfg/maplist.txt
+game/dod_port/cfg/server_blacklist.txt
+game/dod_port/cfg/banned_ip.cfg
+game/dod_port/cfg/banned_user.cfg
+game/dod_port/ServerConfig.vdf
 
 # user generated files
-cfg/autoexec.cfg
-cfg/config.cfg
-cfg/userconfig.cfg
-cfg/settings.scr
-cfg/settings_mod.scr
-cfg/user.scr
-cfg/user_mod.scr
-cfg/pf.scr
-cfg/pet.txt
-cfg/commedit.txt
-cfg/vmt.txt
-media/viewed.res
-resource/mp3player_db.txt
-sound/sound.cache
-console.log
-condump*.txt
+game/dod_port/cfg/autoexec.cfg
+game/dod_port/cfg/config.cfg
+game/dod_port/cfg/userconfig.cfg
+game/dod_port/cfg/settings.scr
+game/dod_port/cfg/settings_mod.scr
+game/dod_port/cfg/user.scr
+game/dod_port/cfg/user_mod.scr
+game/dod_port/cfg/pf.scr
+game/dod_port/cfg/pet.txt
+game/dod_port/cfg/commedit.txt
+game/dod_port/cfg/vmt.txt
+game/dod_port/media/viewed.res
+game/dod_port/resource/mp3player_db.txt
+game/dod_port/sound/sound.cache
+game/dod_port/console.log
+game/dod_port/condump*.txt
 
-GameState.txt
-stats.txt
-modelsounds.cache
-demoheader.tmp
-voice_ban.dt
-glshaders.cfg
-videoconfig_linux.cfg
-gamestate.txt
+game/dod_port/GameState.txt
+game/dod_port/stats.txt
+game/dod_port/modelsounds.cache
+game/dod_port/demoheader.tmp
+game/dod_port/voice_ban.dt
+game/dod_port/glshaders.cfg
+game/dod_port/videoconfig_linux.cfg
+game/dod_port/gamestate.txt
 
 *.dem
 *.backup
 *.bat
 *.lnk
 *.bmp
+*.ain
 
 spec_debug_*.txt
