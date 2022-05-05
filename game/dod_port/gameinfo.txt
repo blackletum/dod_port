@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game	"Day of Defeat Source"
+	game	"DoDS 2013 Port"
 	title	"[DAY-OV-DEFEAT]"
 	title2	"source"
 	type multiplayer_only
