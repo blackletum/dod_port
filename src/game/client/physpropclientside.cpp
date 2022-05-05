@@ -753,7 +753,7 @@ CBaseEntity *BreakModelCreateSingle( CBaseEntity *pOwner, breakmodel_t *pModel, 
 	pEntity->SetCollisionGroup( COLLISION_GROUP_DEBRIS );
 #endif
 
-#ifdef DOD_DLL
+#if defined( DOD_DLL ) || defined( DOD_PORT_CLIENT )
 	pEntity->SetCollisionGroup( COLLISION_GROUP_DEBRIS );
 #endif
 

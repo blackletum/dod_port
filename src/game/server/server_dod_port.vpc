@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------------
 
 $Macro SRCDIR		"..\.."
-$Macro GAMENAME 	"dod"
+$Macro GAMENAME 	"dod_port"
 
 $Include "$SRCDIR\game\server\server_base.vpc"
 
@@ -19,7 +19,7 @@ $Configuration
 	$Compiler
 	{
 		$AdditionalIncludeDirectories	"$BASE;$SRCDIR\game\shared\dod,.\dod"
-		$PreprocessorDefinitions		"$BASE;BOTS;DOD_DLL"
+		$PreprocessorDefinitions		"$BASE;BOTS;DOD_PORT"
 	}
 }
 

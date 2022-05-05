@@ -15,7 +15,7 @@
 	#define CWeaponIFMBase C_WeaponIFMBase
 #endif
 
-#if defined ( DOD_DLL )
+#if defined ( DOD_DLL ) || defined ( DOD_PORT_CLIENT ) || defined ( DOD_PORT )
 	#include "weapon_dodbase.h"
 	#define CWeaponModBaseClass CWeaponDODBase
 #elif defined ( TF_CLIENT_DLL )	|| defined ( TF_DLL )

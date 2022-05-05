@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------------
 
 $Macro SRCDIR		"..\.."
-$Macro GAMENAME 	"dod"
+$Macro GAMENAME 	"dod_port"
 
 $Include "$SRCDIR\game\client\client_base.vpc"
 
@@ -14,7 +14,7 @@ $Configuration
 	$Compiler
 	{
 		$AdditionalIncludeDirectories		"$BASE;dod,.\dod\VGUI,$SRCDIR\game\shared\dod"
-		$PreprocessorDefinitions			"$BASE;DOD_DLL;ENABLE_HTML_WINDOW"
+		$PreprocessorDefinitions			"$BASE;DOD_PORT_CLIENT;ENABLE_HTML_WINDOW"
 	}
 }
 
